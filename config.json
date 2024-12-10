@@ -1,0 +1,7 @@
+{
+	"soundsDataFilePath": "data/sounds/data.json",
+	"categoriesDataFilePath": "data/sounds/categories_data.json",
+	"discordApiVersion": 10,
+	"discordSoundboardNoBoostLimit": 8,
+	"defaultInteractionCooldown": 3
+}

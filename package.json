@@ -1,17 +1,22 @@
 {
-  "name": "legendphrasesbot",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "discord.js": "^14.16.3",
-    "dotenv": "^16.4.7",
-    "node-fetch": "^3.3.2"
-  }
+	"name": "legendphrasesbot",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"discord.js": "^14.16.3",
+		"dotenv": "^16.4.7",
+		"node-fetch": "^3.3.2",
+		"winston": "^3.17.0"
+	},
+	"devDependencies": {
+		"eslint": "^9.16.0",
+		"prettier": "3.4.2"
+	}
 }
