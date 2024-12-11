@@ -40,6 +40,7 @@ async function start(interaction) {
 	//  in terms of consistency compared to the current approach, where the information is only updated when
 	//  the main process starts. However, a drawback is that it increases the number of requests to the Discord API,
 	//  which could impact performance and potentially lead to issues with the API's rate limits.
+	//  Or add it as an additional strategy with the possibility to enable or disable it using a specific command.
 	const isUpdated = await updateInfoAboutCurrentSounds(interaction);
 	if (!isUpdated) {
 		interaction.reply({
